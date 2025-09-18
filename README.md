@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 **`Desenvolvedor Front-end`**
 
-Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, Angra dos Reis. Concluí Análise e Desenvolvimento de Sistemas em 2025. Gosto demais de tecnologia. Atualmente sou um desenvolvedor em construção.
+Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, Angra dos Reis. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor em construção.
 
 ----
 
