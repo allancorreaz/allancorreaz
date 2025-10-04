@@ -23,8 +23,8 @@ Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, An
 
 ----
 🔭 Projetos que eu atuei:
-www.neuraw.com.br
-www.casasolproject.com
+- www.neuraw.com.br
+- www.casasolproject.com
 
 ### 🤖 Linguagens e Tecnologias
 
