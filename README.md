@@ -22,6 +22,9 @@ Here are some ideas to get you started:
 Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, Angra dos Reis. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor em construção.
 
 ----
+🔭 Projetos que eu atuei:
+www.neuraw.com.br
+www.casasolproject.com
 
 ### 🤖 Linguagens e Tecnologias
 
