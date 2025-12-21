@@ -23,7 +23,9 @@ Here are some ideas to get you started:
 
 
 Me chamo Allan, tenho 25 anos. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor júnior, com experiencia em front e fullstack. 
-Meu portifólio: https://meu-portifolio-dun-two.vercel.app/ : 
+
+
+Meu portifólio: https://meu-portifolio-dun-two.vercel.app/
 
 
 
