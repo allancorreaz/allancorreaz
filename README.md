@@ -17,14 +17,16 @@ Here are some ideas to get you started:
 
 # 👨🏻‍💻 Allan de Melo Correa
 
-**`Desenvolvedor Front-end`**
+**`Desenvolvedor Júnior`**
 
-Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, Angra dos Reis. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor em construção.
-
+Me chamo Allan, tenho 25 anos. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor júnior, com experiencia em front e fullstack. 
+Meu portifólio: https://meu-portifolio-dun-two.vercel.app/ : 
 ----
 🔭 Projetos que eu atuei:
 - www.neuraw.com.br
 - www.casasolproject.com
+- www.floridapoolplastering.com
+- www.oceanpoolsfl.com
 
 ### 🤖 Linguagens e Tecnologias
 
@@ -52,7 +54,7 @@ Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, An
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
 />
-<!-- <img 
+ <img 
     align="left" 
     alt="TypeScript"
     title="TypeScript" 
@@ -68,6 +70,7 @@ Me chamo Allan de Melo Correa, tenho 25 anos e sou natural do Rio de Janeiro, An
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
 />
+<!--
 <img 
     align="left" 
     alt="Next.js" 
