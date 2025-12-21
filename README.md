@@ -19,8 +19,14 @@ Here are some ideas to get you started:
 
 **`Desenvolvedor Júnior`**
 
+
+
+
 Me chamo Allan, tenho 25 anos. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor júnior, com experiencia em front e fullstack. 
 Meu portifólio: https://meu-portifolio-dun-two.vercel.app/ : 
+
+
+
 ----
 🔭 Projetos que eu atuei:
 - www.neuraw.com.br
