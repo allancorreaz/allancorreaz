@@ -1,33 +1,10 @@
-
-
-<!--
-**allancorreaz/allancorreaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # 👨🏻‍💻 Allan de Melo Correa
 
 **`Desenvolvedor Júnior`**
 
-
-
-
 Me chamo Allan, tenho 25 anos. Concluí Análise e Desenvolvimento de Sistemas em 2025. Atualmente sou um desenvolvedor júnior, com experiencia em front e fullstack. 
 
-
 Meu portifólio: https://meu-portifolio-dun-two.vercel.app/
-
-
 
 ----
 🔭 Projetos que eu atuei:
@@ -155,16 +132,22 @@ Meu portifólio: https://meu-portifolio-dun-two.vercel.app/
 <br/>
 <br/>
 
-
 ### 📊 Estatísticas
- <div>
+<div>
   <a href="https://www.github.com/allancorreaz">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=allancorreaz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=allancorreaz&layout=compact&langs_count=16&theme=dracula"/>    
+    <img 
+        height="180em" 
+        src="https://github-readme-stats.vercel.app/api?username=allancorreaz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&custom_title=Estatísticas GitHub"
+        alt="Estatísticas do GitHub"
+    />
+    <img 
+        height="180em" 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=allancorreaz&layout=compact&langs_count=10&theme=dracula&bg_color=0d1117&title_color=ff6e96&text_color=9f9f9f"
+        alt="Linguagens mais usadas"
+    />
+  </a>
 </div>
-    
 
- 
 <div> 
   <a href="https://instagram.com/allancorreaz_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://discord.gg/correaoq" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
@@ -188,11 +171,4 @@ Meu portifólio: https://meu-portifolio-dun-two.vercel.app/
 </p>  
 </div>
 
-
 ----
-
-
-
-
-
-
