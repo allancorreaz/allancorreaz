@@ -33,7 +33,7 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
 ---
 
 ## Estatísticas GitHub
-
+<!--
 <div align="center">
 
   <img 
@@ -45,7 +45,7 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
     height="180em" 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=allancorreaz&layout=compact&langs_count=10&theme=dracula&bg_color=0d1117&title_color=ff6e96&text_color=9f9f9f&hide_border=true"
     alt="Linguagens mais usadas"
-  />
+  /> -->
 
 </div>
 
