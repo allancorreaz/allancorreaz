@@ -2,26 +2,29 @@
 
 **Desenvolvedor Júnior | Front-end & Fullstack**
 
-Olá! Me chamo Allan, tenho 25 anos e concluí Análise e Desenvolvimento de Sistemas em 2025.
-Atualmente atuo como desenvolvedor júnior com experiência em projetos front-end e fullstack.
+Olá! Me chamo Allan, tenho 25 anos e concluí Análise e Desenvolvimento de Sistemas em 2025.  
+Atualmente atuo como desenvolvedor júnior com experiência em projetos front-end e fullstack, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
 
-🌐 Portfólio: [meu-portifolio-dun-two.vercel.app](https://meu-portifolio-dun-two.vercel.app/)
+🚀 Sempre buscando evoluir e construir soluções que gerem valor real.
 
----
-
-## Projetos que atuei
-
-- [neuraw.com.br](https://www.neuraw.com.br)
-- [casasolproject.com](https://www.casasolproject.com) (Em Desenvolvimento)
-- [floridapoolplastering.com](https://www.floridapoolplastering.com)
-- [floridapoolplastering.com/builder](https://www.floridapoolplastering.com/builder)
-- [oceanpoolsfl.com](https://www.oceanpoolsfl.com)
-- [santscompany.com](https://www.santscompany.com)
-- [apriscourbano.vercel.app](https://apriscourbano.vercel.app/) (Em Desenvolvimento)
+🌐 **Portfólio:**  
+https://meu-portifolio-dun-two.vercel.app/
 
 ---
 
-## Tecnologias e Ferramentas
+## 🚀 Projetos que atuei
+
+- https://www.neuraw.com.br  
+- https://www.casasolproject.com *(Em desenvolvimento)*  
+- https://www.floridapoolplastering.com  
+- https://www.floridapoolplastering.com/builder  
+- https://www.oceanpoolsfl.com  
+- https://www.santscompany.com  
+- https://apriscourbano.vercel.app/ *(Em desenvolvimento)*  
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
 
 <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
 <img align="left" alt="CSS" title="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
@@ -35,22 +38,7 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
 
 ---
 
-## Estatísticas GitHub
-<!--
-<div align="center">
-
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=allancorreaz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&custom_title=Estatísticas%20GitHub&hide_border=true"
-    alt="Estatísticas do GitHub"
-  />
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=allancorreaz&layout=compact&langs_count=10&theme=dracula&bg_color=0d1117&title_color=ff6e96&text_color=9f9f9f&hide_border=true"
-    alt="Linguagens mais usadas"
-  /> -->
-
-</div>
+## 📊 Estatísticas GitHub
 
 <div align="center">
 
@@ -63,22 +51,38 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
 
 ---
 
-## Contato
+## 📬 Contato
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/allandemelocorrea-45875016a" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://meu-portifolio-dun-two.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/-Meu%20Portifolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://www.santscompany.com" target="_blank">
+  <img src="https://img.shields.io/badge/-Sants%20Company-111111?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+</a>
+
+<br/>
 
 <a href="https://instagram.com/allancorreaz_" target="_blank">
-  <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
+
 <a href="https://discord.gg/correaoq" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
 </a>
+
 <a href="mailto:allancorreaz_@outlook.com">
   <img src="https://img.shields.io/badge/-Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
 </a>
-<a href="https://www.linkedin.com/in/allandemelocorrea-45875016a" target="_blank">
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://meu-portifolio-dun-two.vercel.app/></a>
-  
+
+</div>
+
 ---
 
 <div align="center">
