@@ -77,7 +77,8 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
 <a href="https://www.linkedin.com/in/allandemelocorrea-45875016a" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
+<a href="https://meu-portifolio-dun-two.vercel.app/></a>
+  
 ---
 
 <div align="center">
@@ -95,6 +96,4 @@ Atualmente atuo como desenvolvedor júnior com experiência em projetos front-en
       src="https://custom-icon-badges.demolab.com/github/followers/allancorreaz?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
     />
   </a>
-  <a href="https://meu-portifolio-dun-two.vercel.app/></a>
-  
 </div>
