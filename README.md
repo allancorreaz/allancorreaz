@@ -5,17 +5,17 @@
 Olá! Me chamo Allan, tenho 25 anos e sou formado em Análise e Desenvolvimento de Sistemas.  
 Tenho experiência em projetos front-end e fullstack, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
 
-🚀 Sempre buscando evoluir e construir soluções que gerem valor real.
+Sempre buscando evoluir e construir soluções que gerem valor real.
 
-🌐 **Portfólio:**  
+**Portfólio:**  
 https://meu-portifolio-dun-two.vercel.app/
 
-🌐 **Minha agência de marketing e dev**
+**Minha agência de marketing e dev**
 https://www.santscompany.com
 
 ---
 
-## 🚀 Projetos que atuei
+## Projetos que atuei
 
 - https://www.neuraw.com.br  
 - https://www.casasolproject.com *(Em desenvolvimento)*  
@@ -27,7 +27,7 @@ https://www.santscompany.com
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
 <img align="left" alt="CSS" title="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
@@ -41,7 +41,7 @@ https://www.santscompany.com
 
 ---
 
-## 📊 Estatísticas GitHub
+## Estatísticas GitHub
 
 <div align="center">
 
@@ -54,7 +54,7 @@ https://www.santscompany.com
 
 ---
 
-## 📬 Contato
+## Contato
 
 <div align="center">
 
