@@ -2,7 +2,7 @@
 
 **Front-end & Fullstack**
 
-Olá! Me chamo Allan, tenho 25 anos e sou formado em Análise e Desenvolvimento de Sistemas.  
+Olá! Me chamo Allan, tenho 26 anos e sou formado em Análise e Desenvolvimento de Sistemas.  
 Tenho experiência em projetos front-end, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
 
 Sempre buscando evoluir e construir soluções que gerem valor real.
@@ -40,14 +40,6 @@ Sempre buscando evoluir e construir soluções que gerem valor real.
 
 <a href="https://www.linkedin.com/in/allandemelocorrea-45875016a" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://meu-portifolio-dun-two.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/-Meu%20Portifolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://www.santscompany.com" target="_blank">
-  <img src="https://img.shields.io/badge/-Sants%20Company-111111?style=for-the-badge&logo=google-chrome&logoColor=white"/>
 </a>
 
 <br/>
