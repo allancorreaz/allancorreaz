@@ -3,15 +3,9 @@
 **Front-end & Fullstack**
 
 Olá! Me chamo Allan, tenho 25 anos e sou formado em Análise e Desenvolvimento de Sistemas.  
-Tenho experiência em projetos front-end e fullstack, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
+Tenho experiência em projetos front-end, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
 
 Sempre buscando evoluir e construir soluções que gerem valor real.
-
-**Portfólio:**  
-https://meu-portifolio-dun-two.vercel.app/
-
-**Minha agência de marketing e dev**
-https://www.santscompany.com
 
 ---
 
