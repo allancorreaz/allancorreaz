@@ -3,7 +3,7 @@
 **Front-end**
 
 Olá! Me chamo Allan, tenho 26 anos e sou formado em Análise e Desenvolvimento de Sistemas.  
-Tenho experiência em projetos front-end, criando aplicações modernas, responsivas e focadas em performance e experiência do usuário.
+Desenvolvedor Full Stack | Python, React, SQL
 
 Sempre buscando evoluir e construir soluções que gerem valor real.
 
