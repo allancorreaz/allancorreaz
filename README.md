@@ -6,8 +6,6 @@ Sou formado em Análise e Desenvolvimento de Sistemas e trabalho com desenvolvim
 
 Tenho desenvolvido aplicações de gestão, plataformas de estudo, integrações com APIs e sites institucionais, ampliando minha experiência em front-end, back-end e bancos de dados.
 
-Na Cavaguti, atuo com consultas e scripts SQL, tratamento de dados e melhorias em sistemas, além de apoiar a migração de ERP.
-
 [Portfólio](https://meu-portifolio-dun-two.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a)
 
 ---
