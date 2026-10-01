@@ -2,133 +2,86 @@
 
 **Desenvolvedor Web | React, Python e SQL**
 
-Olá! Sou Allan, formado em Análise e Desenvolvimento de Sistemas.
+Sou formado em Análise e Desenvolvimento de Sistemas e trabalho com desenvolvimento web, projetos para clientes e sistemas empresariais.
 
-Atuo com desenvolvimento web e venho construindo experiência em projetos para clientes e sistemas voltados a necessidades reais de negócio.
+Tenho desenvolvido aplicações de gestão, plataformas de estudo, integrações com APIs e sites institucionais, ampliando minha experiência em front-end, back-end e bancos de dados.
 
-Meus projetos incluem aplicações de gestão, plataformas de estudo, integrações com APIs e sites institucionais, trabalhando com interfaces, back-end e persistência de dados.
+Na Cavaguti, atuo com consultas e scripts SQL, tratamento de dados e melhorias em sistemas, além de apoiar a migração de ERP.
 
-Na Cavaguti, também trabalho com SQL, tratamento de dados e melhorias em sistemas empresariais, apoiando a migração de ERP.
-
-🌐 [Conheça meu portfólio](https://meu-portifolio-dun-two.vercel.app/)
-💼 [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a)
+[Portfólio](https://meu-portifolio-dun-two.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a)
 
 ---
 
-## Tecnologias utilizadas nos meus projetos
+## Tecnologias utilizadas nos projetos
 
 - **Front-end:** HTML, CSS, JavaScript, TypeScript, React e Next.js
 - **Back-end:** Python, Django, Flask, FastAPI e PHP
-- **Banco de dados:** SQL Server, SQLite, Cloudflare D1, Prisma e SQLAlchemy
-- **Ferramentas e infraestrutura:** Git, GitHub, Docker, Vercel e Cloudflare Workers
+- **Dados:** SQL Server, SQLite, Cloudflare D1, Prisma e SQLAlchemy
+- **Ferramentas:** Git, GitHub, Docker, Vercel e Cloudflare Workers
 
 ---
 
 ## Projetos em destaque
 
-### 🗂️ Centro de Controle da Implantação
+### Centro de Controle da Implantação
 
-Portal para centralizar o acompanhamento de uma implantação de ERP, reunindo etapas, tarefas, tickets, pendências, decisões e indicadores.
-
-- Gestão de atividades, responsáveis, prazos e validações.
-- Importação de tickets e organização do histórico de movimentações.
-- Perfis de acesso, auditoria e anexos vinculados aos registros.
-- Exportação de relatórios em Excel.
-- Estrutura para operação com SQLite ou SQL Server.
+Portal para acompanhar a implantação de ERP, centralizando etapas, tarefas, tickets, pendências e decisões. Inclui importação de históricos, perfis de acesso, auditoria, anexos e exportação de relatórios em Excel.
 
 **Tecnologias:** Python, FastAPI, SQLAlchemy, Jinja2, SQLite, SQL Server e Docker.
 
-[Ver repositório](https://github.com/allancorreaz/Gestao-de-Implantacao)
+[Repositório](https://github.com/allancorreaz/Gestao-de-Implantacao)
 
-### 📚 Aprovados Questões
+### Aprovados Questões
 
-Plataforma de estudo para concursos com questões, filtros e simulados.
-
-- Filtros por banca, cargo, disciplina, assunto, ano e prova.
-- Simulados nomeados e cronômetro com restauração.
-- Cadastro, login e painel administrativo básico.
-- Biblioteca de provas, editais e materiais públicos.
-- API integrada ao banco de dados Cloudflare D1.
+Plataforma de estudo para concursos com filtros por banca, cargo, disciplina e assunto. Inclui simulados, cronômetro com restauração, cadastro de usuários, painel administrativo básico e biblioteca de materiais públicos.
 
 **Tecnologias:** JavaScript, HTML, CSS, Cloudflare Workers e Cloudflare D1.
 
-[Ver repositório](https://github.com/allancorreaz/AprovadosQuestoes)
+[Repositório](https://github.com/allancorreaz/AprovadosQuestoes)
 
-### 🚢 Sistema de Registro Operacional
+### Sistema de Registro Operacional
 
-Aplicação para registro e acompanhamento de operações portuárias, com continuidade das informações entre turnos.
-
-- Registro de operações em andamento e finalizadas.
-- Salvamento local automático do preenchimento.
-- Persistência no servidor e compartilhamento entre usuários.
-- Cálculo de indicadores operacionais.
-- Geração de relatórios em PDF.
+Aplicação para registrar operações portuárias e dar continuidade às informações entre turnos. Inclui salvamento automático no navegador, persistência no servidor, cálculo de indicadores e geração de relatórios em PDF.
 
 **Tecnologias:** Python, Flask, SQLite, JavaScript e ReportLab.
 
-[Ver repositório](https://github.com/allancorreaz/registro-operacional)
+[Repositório](https://github.com/allancorreaz/registro-operacional)
 
-### ✂️ Sistema de Gestão de Barbearia
+### Sistema de Gestão de Barbearia
 
-Aplicação web para organizar clientes, serviços, atendimentos, estoque e movimentações financeiras.
-
-- Cadastro e histórico de clientes.
-- Gestão de serviços e atendimentos.
-- Controle de produtos e alertas de estoque.
-- Movimentações de caixa e indicadores no dashboard.
-- Autenticação e páginas protegidas.
+Aplicação para gestão de clientes, serviços, atendimentos, estoque e caixa. Inclui histórico de clientes, alertas de reposição, dashboard e autenticação.
 
 **Tecnologias:** Python, Django, SQLite, HTML, CSS e JavaScript.
 
-[Ver repositório](https://github.com/allancorreaz/barbershop-management-system)
+[Repositório](https://github.com/allancorreaz/barbershop-management-system)
 
-### 📦 Controle de Vendas e Estoque
+### Controle de Vendas e Estoque
 
-Projeto de aplicação web para pequenos comércios, com cadastro de clientes, produtos e registro de vendas.
-
-- Cadastro de produtos e clientes.
-- Registro de vendas com itens.
-- Atualização das quantidades de estoque pela API.
-- Páginas de dashboard e relatórios.
-- Interface desenvolvida com componentes React e TypeScript.
+Aplicação para pequenos comércios, com cadastro de clientes e produtos, registro de vendas e atualização de estoque pela API. Inclui páginas de dashboard e relatórios.
 
 **Tecnologias:** Next.js, React, TypeScript, Tailwind CSS, Prisma e SQLite.
 
-[Ver repositório](https://github.com/allancorreaz/vendas-e-estoque)
+[Repositório](https://github.com/allancorreaz/vendas-e-estoque)
 
-### 🌐 Sants Company
+### Sants Company
 
-Site institucional da minha agência de desenvolvimento web e marketing digital, com apresentação de serviços, portfólio e blog.
-
-- Interface responsiva e componentes reutilizáveis.
-- Blog com conteúdo em JSON e RSS.
-- Formulário integrado à API de envio de e-mails Resend.
-- Validação no servidor e mecanismos anti-spam.
-- Scripts para coleta e atualização de notícias.
+Site institucional da minha agência de desenvolvimento web e marketing digital. Reúne serviços, portfólio, blog e formulário de contato integrado à API Resend, com validação no servidor e mecanismos anti-spam.
 
 **Tecnologias:** HTML, CSS, JavaScript, PHP e Resend.
 
-[Ver repositório](https://github.com/allancorreaz/santscompany)
+[Repositório](https://github.com/allancorreaz/santscompany)
 
-### 💰 Financeiro App — Em desenvolvimento
+### Financeiro App
 
-Back-end de um projeto pessoal de gestão financeira, com integração à API Pluggy para consulta e sincronização de dados via Open Finance.
-
-- Estrutura para contas, transações e registros de sincronização.
-- Rotas de consulta e sincronização manual.
-- Recebimento de webhooks.
-- Configuração para execução em contêiner.
-- Interface mobile prevista como próxima etapa.
+Projeto em desenvolvimento para gestão financeira pessoal. O back-end integra a API Pluggy para sincronização de contas e transações via Open Finance, com rotas de consulta, sincronização manual e recebimento de webhooks.
 
 **Tecnologias:** Python, FastAPI, SQLite, Docker e API Pluggy.
 
-[Ver repositório](https://github.com/allancorreaz/financeiro-app)
+[Repositório](https://github.com/allancorreaz/financeiro-app)
 
 ---
 
 ## Projetos web em que participei
-
-Além dos projetos disponíveis nos repositórios, participei dos seguintes trabalhos:
 
 - [Neuraw](https://www.neuraw.com.br)
 - [Casa Sol Project](https://www.casasolproject.com)
@@ -136,7 +89,7 @@ Além dos projetos disponíveis nos repositórios, participei dos seguintes trab
 - [Florida Pool Plastering — Builder](https://www.floridapoolplastering.com/builder)
 - [Ocean Pools FL](https://www.oceanpoolsfl.com)
 
-Veja mais no meu [portfólio](https://meu-portifolio-dun-two.vercel.app/).
+Outros trabalhos estão disponíveis no meu [portfólio](https://meu-portifolio-dun-two.vercel.app/).
 
 ---
 
