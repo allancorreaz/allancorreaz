@@ -6,7 +6,6 @@ import json
 import os
 from pathlib import Path
 import re
-import textwrap
 import urllib.request
 from urllib.parse import quote
 
@@ -73,42 +72,25 @@ def description(repo):
     language = repo.get('language')
     return f'Projeto em {language}. Consulte o repositório para acompanhar o desenvolvimento.' if language else 'Consulte o repositório para acompanhar o desenvolvimento.'
 
-def project_preview(repo, title):
-    """Generate a repository cover locally, without external image services."""
-    folder = ROOT / 'profile' / 'projects'
-    folder.mkdir(parents=True, exist_ok=True)
-    title_lines = textwrap.wrap(title, width=42)[:2]
-    summary = textwrap.wrap(description(repo), width=92)[:2]
-    content = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img">', f'<title>{html.escape(title)}</title>', '<rect x="1" y="1" width="898" height="258" rx="12" fill="#ffffff" stroke="#d0d7de"/>', '<rect x="1" y="1" width="7" height="258" rx="3" fill="#238636"/>', '<g font-family="Arial,sans-serif" fill="#1f2328">', '<text x="30" y="35" font-size="12" fill="#59636e">PROJETO · ALLAN DE MELO CORREA</text>']
-    for i, line in enumerate(title_lines):
-        content.append(f'<text x="30" y="{78+i*34}" font-size="28" font-weight="700">{html.escape(line)}</text>')
-    for i, line in enumerate(summary):
-        content.append(f'<text x="30" y="{153+i*23}" font-size="15" fill="#59636e">{html.escape(line)}</text>')
-    language = repo.get('language') or 'Código e documentação'
-    content += [f'<text x="30" y="230" font-size="13">{html.escape(language)} · github.com/{OWNER}/{html.escape(repo["name"])}</text>', '</g></svg>']
-    (folder / (repo['name'] + '.svg')).write_text('\n'.join(content))
-
 def card(repo):
     name = repo['name']
     title = KNOWN.get(name, (name.replace('-', ' '), ''))[0]
     url = repo['html_url']
-    image = f'./profile/projects/{quote(name)}.svg'
-    project_preview(repo, title)
     state = ' · Arquivado' if repo.get('archived') else ''
     language = (' · ' + repo['language']) if repo.get('language') else ''
-    return f'''<a href="{html.escape(url, quote=True)}"><img src="{image}" alt="Prévia do repositório {html.escape(title, quote=True)}" width="440" /></a>\n\n**[{title}]({url})**{language}{state}\n\n{html.escape(description(repo))}\n'''
+    return f'''**[{title}]({url})**{language}{state}\n\n{html.escape(description(repo))}\n'''
 
 def projects(repos):
     lookup = {r['name']: r for r in repos}
     featured = [lookup[n] for n in FEATURED if n in lookup]
     other = sorted((r for r in repos if r['name'] not in FEATURED), key=lambda r: r.get('pushed_at') or '', reverse=True)
-    sections = ['As imagens são prévias dos repositórios; demonstrações estão nos respectivos projetos.\n']
+    sections = []
     sections += [card(r) for r in featured]
     if other:
         sections += ['<details>\n<summary>Outros projetos e estudos</summary>\n']
         sections += [card(r) for r in other]
         sections += ['</details>\n']
-    sections += [f'[Todos os repositórios](https://github.com/{OWNER}?tab=repositories)\n', 'Atualização automática a cada hora. Novos repositórios públicos próprios aparecem nesta seção; forks, repositórios vazios e privados ficam de fora.\n']
+    sections += [f'[Todos os repositórios](https://github.com/{OWNER}?tab=repositories)\n']
     return '\n'.join(sections)
 
 def update_projects(repos):
@@ -146,17 +128,18 @@ def statistics(repos):
     current, best = streaks(days)
     stars = sum(r.get('stargazers_count', 0) for r in repos)
     values = [('Contribuições', calendar['totalContributions']), ('Commits elegíveis', collection['totalCommitContributions']), ('Sequência atual', f'{current} dias'), ('Maior sequência', f'{best} dias'), ('Repos. públicos próprios', len(repos)), ('Estrelas', stars), ('Seguidores', user['followers']['totalCount'])]
-    svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370" role="img" aria-labelledby="title desc">', '<title id="title">Atividade de Allan de Melo Correa no GitHub</title>', '<desc id="desc">Contribuições e commits elegíveis dos últimos 12 meses. Sequências medidas nesta janela; repositórios, estrelas e seguidores são totais atuais públicos.</desc>', '<rect width="899" height="369" x=".5" y=".5" rx="12" fill="#ffffff" stroke="#d0d7de"/>', '<g font-family="Arial,sans-serif" fill="#1f2328">', '<text x="28" y="36" font-size="20" font-weight="700">Atividade no GitHub</text>', '<text x="28" y="60" font-size="12" fill="#59636e">Contribuições e sequências nos últimos 12 meses · Dados da API do GitHub</text>']
+    svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370" role="img" aria-labelledby="title desc">', '<title id="title">Atividade de Allan de Melo Correa no GitHub</title>', '<desc id="desc">Contribuições e commits elegíveis dos últimos 12 meses. Sequências medidas nesta janela; repositórios, estrelas e seguidores são totais atuais públicos.</desc>', '<rect width="899" height="369" x=".5" y=".5" rx="12" fill="#0d1117" stroke="#30363d"/>', '<g font-family="Arial,sans-serif" fill="#e6edf3">', '<text x="28" y="36" font-size="20" font-weight="700">Atividade no GitHub</text>', '<text x="28" y="60" font-size="12" fill="#9da7b3">Últimos 12 meses</text>']
     for i, (label, value) in enumerate(values):
         x, y = 28 + (i % 4) * 215, 96 + (i // 4) * 65
-        svg += [f'<text x="{x}" y="{y}" font-size="11" fill="#59636e">{label}</text>', f'<text x="{x}" y="{y+27}" font-size="24" font-weight="700">{value}</text>']
+        svg += [f'<text x="{x}" y="{y}" font-size="11" fill="#9da7b3">{label}</text>', f'<text x="{x}" y="{y+27}" font-size="24" font-weight="700">{value}</text>']
     for col, week in enumerate(weeks):
         for day in week['contributionDays']:
             row = (dt.date.fromisoformat(day['date']).weekday() + 1) % 7
-            color = day['color'] if re.fullmatch(r'#[0-9a-fA-F]{6}', day['color']) else '#ebedf0'
+            color = day['color'] if re.fullmatch(r'#[0-9a-fA-F]{6}', day['color']) else '#161b22'
+            color = {'#9be9a8': '#0e4429', '#40c463': '#006d32', '#30a14e': '#26a641', '#216e39': '#39d353', '#ebedf0': '#161b22'}.get(color.lower(), color)
             svg.append(f'<rect x="{28+col*16}" y="{220+row*15}" width="12" height="12" rx="2" fill="{color}"><title>{day["date"]}: {day["contributionCount"]} contribuições</title></rect>')
     stamp = dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y %H:%M UTC')
-    svg += [f'<text x="28" y="349" font-size="11" fill="#59636e">Atualizado em {stamp} · O GitHub pode levar até 24 h para contabilizar contribuições.</text>', '</g></svg>']
+    svg += [f'<text x="28" y="349" font-size="11" fill="#9da7b3">Atualizado em {stamp}</text>', '</g></svg>']
     dest = ROOT / 'profile'
     dest.mkdir(exist_ok=True)
     (dest / 'activity.svg').write_text('\n'.join(svg))

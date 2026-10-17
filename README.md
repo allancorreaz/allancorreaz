@@ -31,39 +31,25 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <!-- PROJECTS:START -->
 
-As imagens são prévias dos repositórios; demonstrações estão nos respectivos projetos.
-
-<a href="https://github.com/allancorreaz/Nexora-AI"><img src="./profile/projects/Nexora-AI.svg" alt="Prévia do repositório Nexora AI" width="440" /></a>
-
 **[Nexora AI](https://github.com/allancorreaz/Nexora-AI)** · TypeScript
 
 IA para auxiliar pós treinamentos, usando transcrições de treinamentos e documentação do sistema no qual está sendo treinado.
-
-<a href="https://github.com/allancorreaz/Gestao-de-Implantacao"><img src="./profile/projects/Gestao-de-Implantacao.svg" alt="Prévia do repositório Centro de Controle da Implantação" width="440" /></a>
 
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
 Gestão de implantação de sistemas
 
-<a href="https://github.com/allancorreaz/AprovadosQuestoes"><img src="./profile/projects/AprovadosQuestoes.svg" alt="Prévia do repositório Aprovados Questões" width="440" /></a>
-
 **[Aprovados Questões](https://github.com/allancorreaz/AprovadosQuestoes)** · JavaScript
 
 Site teste com questoes pra treinar pra concursos específicos
-
-<a href="https://github.com/allancorreaz/registro-operacional"><img src="./profile/projects/registro-operacional.svg" alt="Prévia do repositório Registro Operacional" width="440" /></a>
 
 **[Registro Operacional](https://github.com/allancorreaz/registro-operacional)** · JavaScript
 
 Registro das operações dos equipamentos portuários.
 
-<a href="https://github.com/allancorreaz/apriscourbano"><img src="./profile/projects/apriscourbano.svg" alt="Prévia do repositório Aprisco Urbano" width="440" /></a>
-
 **[Aprisco Urbano](https://github.com/allancorreaz/apriscourbano)** · TypeScript
 
 site igreja aprisco urbano
-
-<a href="https://github.com/allancorreaz/vendas-e-estoque"><img src="./profile/projects/vendas-e-estoque.svg" alt="Prévia do repositório Controle de Vendas e Estoque" width="440" /></a>
 
 **[Controle de Vendas e Estoque](https://github.com/allancorreaz/vendas-e-estoque)** · TypeScript
 
@@ -72,49 +58,33 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-<a href="https://github.com/allancorreaz/Portif-lio"><img src="./profile/projects/Portif-lio.svg" alt="Prévia do repositório Portfólio pessoal" width="440" /></a>
-
 **[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · HTML
 
 Meu portifólio dev
-
-<a href="https://github.com/allancorreaz/fsw-barber"><img src="./profile/projects/fsw-barber.svg" alt="Prévia do repositório FSW Barber — Em desenvolvimento" width="440" /></a>
 
 **[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
 Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
 
-<a href="https://github.com/allancorreaz/FWS-BarberShopService"><img src="./profile/projects/FWS-BarberShopService.svg" alt="Prévia do repositório FWS BarberShop Service — Em desenvolvimento" width="440" /></a>
-
 **[FWS BarberShop Service — Em desenvolvimento](https://github.com/allancorreaz/FWS-BarberShopService)** · TypeScript
 
 Saas pra barberarias.
-
-<a href="https://github.com/allancorreaz/santscompany"><img src="./profile/projects/santscompany.svg" alt="Prévia do repositório Sants Company" width="440" /></a>
 
 **[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
 
 Site para Agência de marketing e programação.
 
-<a href="https://github.com/allancorreaz/financeiro-app"><img src="./profile/projects/financeiro-app.svg" alt="Prévia do repositório Financeiro App" width="440" /></a>
-
 **[Financeiro App](https://github.com/allancorreaz/financeiro-app)** · Python
 
 controle financeiro pessoal, testes
-
-<a href="https://github.com/allancorreaz/calendar2x2"><img src="./profile/projects/calendar2x2.svg" alt="Prévia do repositório calendar2x2" width="440" /></a>
 
 **[calendar2x2](https://github.com/allancorreaz/calendar2x2)** · JavaScript
 
 adjustable calendar for shift workers
 
-<a href="https://github.com/allancorreaz/tic-tac-toe"><img src="./profile/projects/tic-tac-toe.svg" alt="Prévia do repositório tic tac toe" width="440" /></a>
-
 **[tic tac toe](https://github.com/allancorreaz/tic-tac-toe)** · JavaScript
 
 jogo da velha
-
-<a href="https://github.com/allancorreaz/Projeto-Glass"><img src="./profile/projects/Projeto-Glass.svg" alt="Prévia do repositório Projeto Glass" width="440" /></a>
 
 **[Projeto Glass](https://github.com/allancorreaz/Projeto-Glass)** · HTML
 
@@ -123,8 +93,6 @@ Curso em Video HTML5
 </details>
 
 [Todos os repositórios](https://github.com/allancorreaz?tab=repositories)
-
-Atualização automática a cada hora. Novos repositórios públicos próprios aparecem nesta seção; forks, repositórios vazios e privados ficam de fora.
 
 <!-- PROJECTS:END -->
 
@@ -144,9 +112,6 @@ Atualização automática a cada hora. Novos repositórios públicos próprios a
 
 [![Contribuições, commits elegíveis e sequências de atividade](./profile/activity.svg)](https://github.com/allancorreaz?tab=overview)
 
-As estatísticas são geradas neste repositório a partir da API do GitHub. Contribuições e sequências usam a janela dos últimos 12 meses; repositórios, estrelas e seguidores representam totais atuais públicos. A sequência conta dias com contribuições, não o número de commits.
-
-A atualização é agendada a cada hora, pode sofrer atrasos do GitHub Actions e também pode ser executada em [Actions](https://github.com/allancorreaz/allancorreaz/actions/workflows/update-profile.yml). O GitHub pode levar até 24 horas para contabilizar contribuições elegíveis.
 
 ---
 
