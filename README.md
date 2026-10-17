@@ -31,7 +31,7 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <!-- PROJECTS:START -->
 
-**[Nexora AI](https://github.com/allancorreaz/Nexora-AI)** · TypeScript
+**[Nexora AI](https://github.com/allancorreaz/Nexora-AI)** · Python
 
 IA para auxiliar pós treinamentos, usando transcrições de treinamentos e documentação do sistema no qual está sendo treinado.
 
@@ -58,7 +58,7 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · HTML
+**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
 
 Meu portifólio dev
 
