@@ -6,6 +6,7 @@ import json
 import os
 from pathlib import Path
 import re
+import textwrap
 import urllib.request
 from urllib.parse import quote
 
@@ -72,11 +73,27 @@ def description(repo):
     language = repo.get('language')
     return f'Projeto em {language}. Consulte o repositório para acompanhar o desenvolvimento.' if language else 'Consulte o repositório para acompanhar o desenvolvimento.'
 
+def project_preview(repo, title):
+    """Generate a repository cover locally, without external image services."""
+    folder = ROOT / 'profile' / 'projects'
+    folder.mkdir(parents=True, exist_ok=True)
+    title_lines = textwrap.wrap(title, width=42)[:2]
+    summary = textwrap.wrap(description(repo), width=92)[:2]
+    content = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img">', f'<title>{html.escape(title)}</title>', '<rect x="1" y="1" width="898" height="258" rx="12" fill="#ffffff" stroke="#d0d7de"/>', '<rect x="1" y="1" width="7" height="258" rx="3" fill="#238636"/>', '<g font-family="Arial,sans-serif" fill="#1f2328">', '<text x="30" y="35" font-size="12" fill="#59636e">PROJETO · ALLAN DE MELO CORREA</text>']
+    for i, line in enumerate(title_lines):
+        content.append(f'<text x="30" y="{78+i*34}" font-size="28" font-weight="700">{html.escape(line)}</text>')
+    for i, line in enumerate(summary):
+        content.append(f'<text x="30" y="{153+i*23}" font-size="15" fill="#59636e">{html.escape(line)}</text>')
+    language = repo.get('language') or 'Código e documentação'
+    content += [f'<text x="30" y="230" font-size="13">{html.escape(language)} · github.com/{OWNER}/{html.escape(repo["name"])}</text>', '</g></svg>']
+    (folder / (repo['name'] + '.svg')).write_text('\n'.join(content))
+
 def card(repo):
     name = repo['name']
     title = KNOWN.get(name, (name.replace('-', ' '), ''))[0]
     url = repo['html_url']
-    image = f'https://opengraph.githubassets.com/profile/{OWNER}/{quote(name)}'
+    image = f'./profile/projects/{quote(name)}.svg'
+    project_preview(repo, title)
     state = ' · Arquivado' if repo.get('archived') else ''
     language = (' · ' + repo['language']) if repo.get('language') else ''
     return f'''<a href="{html.escape(url, quote=True)}"><img src="{image}" alt="Prévia do repositório {html.escape(title, quote=True)}" width="440" /></a>\n\n**[{title}]({url})**{language}{state}\n\n{html.escape(description(repo))}\n'''

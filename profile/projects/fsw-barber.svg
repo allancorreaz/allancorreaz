@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img">
+<title>FSW Barber — Em desenvolvimento</title>
+<rect x="1" y="1" width="898" height="258" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="1" y="1" width="7" height="258" rx="3" fill="#238636"/>
+<g font-family="Arial,sans-serif" fill="#1f2328">
+<text x="30" y="35" font-size="12" fill="#59636e">PROJETO · ALLAN DE MELO CORREA</text>
+<text x="30" y="78" font-size="28" font-weight="700">FSW Barber — Em desenvolvimento</text>
+<text x="30" y="153" font-size="15" fill="#59636e">Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.</text>
+<text x="30" y="230" font-size="13">TypeScript · github.com/allancorreaz/fsw-barber</text>
+</g></svg>
