@@ -1,81 +1,132 @@
 # Allan de Melo Correa
 
-**Desenvolvedor Web | React, Python e SQL**
+**Desenvolvedor Web | React, Next.js, Python e SQL**
 
-Sou formado em Análise e Desenvolvimento de Sistemas e trabalho com desenvolvimento web, projetos para clientes e sistemas empresariais.
+Sou formado em Análise e Desenvolvimento de Sistemas e atuo no desenvolvimento de sites, aplicações web e soluções para processos de negócio.
 
-Tenho desenvolvido aplicações de gestão, plataformas de estudo, integrações com APIs e sites institucionais, ampliando minha experiência em front-end, back-end e bancos de dados.
+Minha experiência reúne projetos para clientes, interfaces responsivas, APIs e bancos de dados. Também trabalho com SQL Server, tratamento e migração de dados e melhorias em sistemas empresariais, conectando desenvolvimento às necessidades de quem utiliza as aplicações.
 
-[Portfólio](https://meu-portifolio-dun-two.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a)
+Nos projetos pessoais, aprofundo minha prática com autenticação, integração entre front-end e back-end, testes e execução local de modelos de IA. O Nexora AI é um desses projetos: um assistente local em desenvolvimento com Next.js, FastAPI e Ollama.
+
+**Busco oportunidades em desenvolvimento web**, com interesse em contribuir para uma equipe, aprender com outros profissionais e participar da construção e evolução de aplicações.
+
+[Portfólio](https://meu-portifolio-dun-two.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a) · [E-mail](mailto:demelocorrea1@outlook.com)
 
 ---
 
-## Tecnologias utilizadas nos projetos
+## Tecnologias nos meus projetos
 
-- **Front-end:** HTML, CSS, JavaScript, TypeScript, React e Next.js
-- **Back-end:** Python, Django, Flask, FastAPI e PHP
-- **Dados:** SQL Server, SQLite, Cloudflare D1, Prisma e SQLAlchemy
-- **Ferramentas:** Git, GitHub, Docker, Vercel e Cloudflare Workers
+| Área | Tecnologias |
+| --- | --- |
+| Front-end | HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Bootstrap e shadcn/ui |
+| Back-end | Python, Django, Flask, FastAPI e PHP |
+| Dados e persistência | SQL Server, MySQL, SQLite, Cloudflare D1, Prisma, SQLAlchemy e Drizzle ORM |
+| Sites e e-commerce | Shopify, Liquid, WordPress e Elementor Pro |
+| Ferramentas e publicação | Git, GitHub, Docker, Vercel e Cloudflare Workers |
+| IA local em desenvolvimento | Ollama e integração de modelos por API |
 
 ---
 
 ## Projetos em destaque
 
-### Centro de Controle da Implantação
+<!-- PROJECTS:START -->
 
-Portal para acompanhar a implantação de ERP, centralizando etapas, tarefas, tickets, pendências e decisões. Inclui importação de históricos, perfis de acesso, auditoria, anexos e exportação de relatórios em Excel.
+As imagens são prévias dos repositórios; demonstrações estão nos respectivos projetos.
 
-**Tecnologias:** Python, FastAPI, SQLAlchemy, Jinja2, SQLite, SQL Server e Docker.
+<a href="https://github.com/allancorreaz/Nexora-AI"><img src="https://opengraph.githubassets.com/profile/allancorreaz/Nexora-AI" alt="Prévia do repositório Nexora AI" width="440" /></a>
 
-[Repositório](https://github.com/allancorreaz/Gestao-de-Implantacao)
+**[Nexora AI](https://github.com/allancorreaz/Nexora-AI)** · TypeScript
 
-### Aprovados Questões
+IA para auxiliar pós treinamentos, usando transcrições de treinamentos e documentação do sistema no qual está sendo treinado.
 
-Plataforma de estudo para concursos com filtros por banca, cargo, disciplina e assunto. Inclui simulados, cronômetro com restauração, cadastro de usuários, painel administrativo básico e biblioteca de materiais públicos.
+<a href="https://github.com/allancorreaz/Gestao-de-Implantacao"><img src="https://opengraph.githubassets.com/profile/allancorreaz/Gestao-de-Implantacao" alt="Prévia do repositório Centro de Controle da Implantação" width="440" /></a>
 
-**Tecnologias:** JavaScript, HTML, CSS, Cloudflare Workers e Cloudflare D1.
+**[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
-[Repositório](https://github.com/allancorreaz/AprovadosQuestoes)
+Gestão de implantação de sistemas
 
-### Sistema de Registro Operacional
+<a href="https://github.com/allancorreaz/AprovadosQuestoes"><img src="https://opengraph.githubassets.com/profile/allancorreaz/AprovadosQuestoes" alt="Prévia do repositório Aprovados Questões" width="440" /></a>
 
-Aplicação para registrar operações portuárias e dar continuidade às informações entre turnos. Inclui salvamento automático no navegador, persistência no servidor, cálculo de indicadores e geração de relatórios em PDF.
+**[Aprovados Questões](https://github.com/allancorreaz/AprovadosQuestoes)** · JavaScript
 
-**Tecnologias:** Python, Flask, SQLite, JavaScript e ReportLab.
+Site teste com questoes pra treinar pra concursos específicos
 
-[Repositório](https://github.com/allancorreaz/registro-operacional)
+<a href="https://github.com/allancorreaz/registro-operacional"><img src="https://opengraph.githubassets.com/profile/allancorreaz/registro-operacional" alt="Prévia do repositório Registro Operacional" width="440" /></a>
 
-### Sistema de Gestão de Barbearia
+**[Registro Operacional](https://github.com/allancorreaz/registro-operacional)** · JavaScript
 
-Aplicação para gestão de clientes, serviços, atendimentos, estoque e caixa. Inclui histórico de clientes, alertas de reposição, dashboard e autenticação.
+Registro das operações dos equipamentos portuários.
 
-**Tecnologias:** Python, Django, SQLite, HTML, CSS e JavaScript.
+<a href="https://github.com/allancorreaz/apriscourbano"><img src="https://opengraph.githubassets.com/profile/allancorreaz/apriscourbano" alt="Prévia do repositório Aprisco Urbano" width="440" /></a>
 
-[Repositório](https://github.com/allancorreaz/barbershop-management-system)
+**[Aprisco Urbano](https://github.com/allancorreaz/apriscourbano)** · TypeScript
 
-### Controle de Vendas e Estoque
+site igreja aprisco urbano
 
-Aplicação para pequenos comércios, com cadastro de clientes e produtos, registro de vendas e atualização de estoque pela API. Inclui páginas de dashboard e relatórios.
+<a href="https://github.com/allancorreaz/vendas-e-estoque"><img src="https://opengraph.githubassets.com/profile/allancorreaz/vendas-e-estoque" alt="Prévia do repositório Controle de Vendas e Estoque" width="440" /></a>
 
-**Tecnologias:** Next.js, React, TypeScript, Tailwind CSS, Prisma e SQLite.
+**[Controle de Vendas e Estoque](https://github.com/allancorreaz/vendas-e-estoque)** · TypeScript
 
-[Repositório](https://github.com/allancorreaz/vendas-e-estoque)
+sistema de controle de vendas e estoque
 
-### Sants Company
+<details>
+<summary>Outros projetos e estudos</summary>
 
-Site institucional da minha agência de desenvolvimento web e marketing digital. Reúne serviços, portfólio, blog e formulário de contato integrado à API Resend, com validação no servidor e mecanismos anti-spam.
+<a href="https://github.com/allancorreaz/Portif-lio"><img src="https://opengraph.githubassets.com/profile/allancorreaz/Portif-lio" alt="Prévia do repositório Portfólio pessoal" width="440" /></a>
 
-**Tecnologias:** HTML, CSS, JavaScript, PHP e Resend.
+**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · HTML
 
-[Repositório](https://github.com/allancorreaz/santscompany)
+Meu portifólio dev
 
-### Financeiro App
+<a href="https://github.com/allancorreaz/fsw-barber"><img src="https://opengraph.githubassets.com/profile/allancorreaz/fsw-barber" alt="Prévia do repositório FSW Barber — Em desenvolvimento" width="440" /></a>
 
-Projeto em desenvolvimento para gestão financeira pessoal. O back-end integra a API Pluggy para sincronização de contas e transações via Open Finance, com rotas de consulta, sincronização manual e recebimento de webhooks.
+**[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
-**Tecnologias:** Python, FastAPI, SQLite, Docker e API Pluggy.
+Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
 
-[Repositório](https://github.com/allancorreaz/financeiro-app)
+<a href="https://github.com/allancorreaz/FWS-BarberShopService"><img src="https://opengraph.githubassets.com/profile/allancorreaz/FWS-BarberShopService" alt="Prévia do repositório FWS BarberShop Service — Em desenvolvimento" width="440" /></a>
+
+**[FWS BarberShop Service — Em desenvolvimento](https://github.com/allancorreaz/FWS-BarberShopService)** · TypeScript
+
+Saas pra barberarias.
+
+<a href="https://github.com/allancorreaz/santscompany"><img src="https://opengraph.githubassets.com/profile/allancorreaz/santscompany" alt="Prévia do repositório Sants Company" width="440" /></a>
+
+**[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
+
+Site para Agência de marketing e programação.
+
+<a href="https://github.com/allancorreaz/financeiro-app"><img src="https://opengraph.githubassets.com/profile/allancorreaz/financeiro-app" alt="Prévia do repositório Financeiro App" width="440" /></a>
+
+**[Financeiro App](https://github.com/allancorreaz/financeiro-app)** · Python
+
+controle financeiro pessoal, testes
+
+<a href="https://github.com/allancorreaz/calendar2x2"><img src="https://opengraph.githubassets.com/profile/allancorreaz/calendar2x2" alt="Prévia do repositório calendar2x2" width="440" /></a>
+
+**[calendar2x2](https://github.com/allancorreaz/calendar2x2)** · JavaScript
+
+adjustable calendar for shift workers
+
+<a href="https://github.com/allancorreaz/tic-tac-toe"><img src="https://opengraph.githubassets.com/profile/allancorreaz/tic-tac-toe" alt="Prévia do repositório tic tac toe" width="440" /></a>
+
+**[tic tac toe](https://github.com/allancorreaz/tic-tac-toe)** · JavaScript
+
+jogo da velha
+
+<a href="https://github.com/allancorreaz/Projeto-Glass"><img src="https://opengraph.githubassets.com/profile/allancorreaz/Projeto-Glass" alt="Prévia do repositório Projeto Glass" width="440" /></a>
+
+**[Projeto Glass](https://github.com/allancorreaz/Projeto-Glass)** · HTML
+
+Curso em Video HTML5
+
+</details>
+
+[Todos os repositórios](https://github.com/allancorreaz?tab=repositories)
+
+Atualização automática a cada hora. Novos repositórios públicos próprios aparecem nesta seção; forks, repositórios vazios e privados ficam de fora.
+
+<!-- PROJECTS:END -->
 
 ---
 
@@ -87,20 +138,15 @@ Projeto em desenvolvimento para gestão financeira pessoal. O back-end integra a
 - [Florida Pool Plastering — Builder](https://www.floridapoolplastering.com/builder)
 - [Ocean Pools FL](https://www.oceanpoolsfl.com)
 
-Outros trabalhos estão disponíveis no meu [portfólio](https://meu-portifolio-dun-two.vercel.app/).
-
 ---
 
-## Estatísticas GitHub
+## Atividade no GitHub
 
-<div align="center">
+[![Contribuições, commits elegíveis e sequências de atividade](./profile/activity.svg)](https://github.com/allancorreaz?tab=overview)
 
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=allancorreaz&theme=dracula&hide_border=true&date_format=d%2Fm%5BY%5D&locale=pt_BR"
-    alt="Streak de commits"
-  />
+As estatísticas são geradas neste repositório a partir da API do GitHub. Contribuições e sequências usam a janela dos últimos 12 meses; repositórios, estrelas e seguidores representam totais atuais públicos. A sequência conta dias com contribuições, não o número de commits.
 
-</div>
+A atualização é agendada a cada hora, pode sofrer atrasos do GitHub Actions e também pode ser executada em [Actions](https://github.com/allancorreaz/allancorreaz/actions/workflows/update-profile.yml). O GitHub pode levar até 24 horas para contabilizar contribuições elegíveis.
 
 ---
 
@@ -146,3 +192,4 @@ Outros trabalhos estão disponíveis no meu [portfólio](https://meu-portifolio-
     />
   </a>
 </div>
+
