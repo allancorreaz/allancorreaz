@@ -31,10 +31,6 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <!-- PROJECTS:START -->
 
-**[Nexora AI](https://github.com/allancorreaz/Nexora-AI)** · Python
-
-IA para auxiliar pós treinamentos, usando transcrições de treinamentos e documentação do sistema no qual está sendo treinado.
-
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
 Gestão de implantação de sistemas
