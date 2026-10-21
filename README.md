@@ -54,6 +54,14 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
+
+Landing page simples e direta para personal trainers, feita em HTML e CSS puros: sem framework, sem build, sem JavaScript e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel, que usamos como exemplo pra esse repositório.
+
+**[personalLP2](https://github.com/allancorreaz/personalLP2)** · HTML
+
+Landing page completa para personal trainers, feita em HTML, CSS e JavaScript puros: sem framework, sem build e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel.
+
 **[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
 
 Meu portifólio dev
