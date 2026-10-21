@@ -54,6 +54,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[dashboard garantias](https://github.com/allancorreaz/dashboard-garantias)** · TypeScript
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
 Landing page simples e direta para personal trainers, feita em HTML e CSS puros: sem framework, sem build, sem JavaScript e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel, que usamos como exemplo pra esse repositório.
