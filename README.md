@@ -56,7 +56,7 @@ sistema de controle de vendas e estoque
 
 **[dashboard garantias](https://github.com/allancorreaz/dashboard-garantias)** · TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
 
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
