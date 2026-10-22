@@ -54,7 +54,7 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-**[dashboard garantias](https://github.com/allancorreaz/dashboard-garantias)** · TypeScript
+**[Gario garantias](https://github.com/allancorreaz/Gario-garantias)**
 
 Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
 
