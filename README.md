@@ -54,6 +54,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[ValidadorXml](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
+
+Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
+
 **[Gario garantias](https://github.com/allancorreaz/Gario-garantias)**
 
 Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
