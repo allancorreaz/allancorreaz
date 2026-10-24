@@ -20,6 +20,8 @@ KNOWN = {
  'registro-operacional': ('Registro Operacional', 'Aplicação para operações portuárias com continuidade entre turnos, cálculo de indicadores, persistência de dados e relatórios em PDF.'),
  'apriscourbano': ('Aprisco Urbano', 'Site institucional com área administrativa para conteúdo, usuários, permissões e auditoria.'),
  'vendas-e-estoque': ('Controle de Vendas e Estoque', 'Aplicação com Next.js, TypeScript e Prisma para cadastro de produtos e clientes, registro de vendas e atualização de estoque.'),
+ 'Gario-garantias': ('Gario', 'Sistema interno em produção para gestão de garantias: lê planilhas do Google Drive em modo somente leitura e entrega indicadores, alertas, histórico de mudanças e acesso por loja. React, TypeScript, Node.js, SQLite e Docker; o repositório traz a documentação completa.'),
+ 'ValidadorXml': ('Validador de XML', 'Ferramenta em TypeScript para validar arquivos XML.'),
  'santscompany': ('Sants Company', 'Site institucional com portfólio, blog e formulário integrado à API Resend, com validação no servidor e mecanismos anti-spam.'),
  'financeiro-app': ('Financeiro App', 'Back-end em desenvolvimento com FastAPI e integração à Pluggy para sincronização financeira via Open Finance e webhooks.'),
  'barbershop-management-system': ('Gestão de Barbearia', 'Aplicação Django com gestão de clientes, serviços, atendimentos, estoque e movimentações de caixa.'),
@@ -27,7 +29,13 @@ KNOWN = {
  'fsw-barber': ('FSW Barber — Em desenvolvimento', 'Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.'),
  'FWS-BarberShopService': ('FWS BarberShop Service — Em desenvolvimento', 'Projeto de barbearia em desenvolvimento. Documentação técnica em preparação.'),
 }
-FEATURED = ['Nexora-AI', 'Gestao-de-Implantacao', 'AprovadosQuestoes', 'registro-operacional', 'apriscourbano', 'vendas-e-estoque']
+# Projetos que aparecem abertos, nesta ordem (no máximo 10); os demais ficam em "Outros projetos e estudos".
+FEATURED = ['Gario-garantias', 'santscompany', 'Portif-lio', 'neuraw', 'ValidadorXml', 'Gestao-de-Implantacao', 'AprovadosQuestoes', 'registro-operacional', 'apriscourbano', 'vendas-e-estoque']
+MAX_DESTAQUES = 10
+# Projetos sem repositório público (trabalhos para clientes), exibidos com link para o site.
+EXTERNOS = {
+ 'neuraw': {'title': 'Neuraw', 'url': 'https://www.neuraw.com.br', 'language': 'Shopify · Liquid', 'description': 'Participação no desenvolvimento e na personalização de uma loja de suplementos na Shopify, com Liquid, HTML, CSS e JavaScript.'},
+}
 
 def api(path, payload=None, accept='application/vnd.github+json'):
     url = path if path.startswith('https://') else 'https://api.github.com' + path
@@ -80,12 +88,15 @@ def card(repo):
     language = (' · ' + repo['language']) if repo.get('language') else ''
     return f'''**[{title}]({url})**{language}{state}\n\n{html.escape(description(repo))}\n'''
 
+def external_card(item):
+    return f'''**[{item['title']}]({item['url']})** · {item['language']}\n\n{html.escape(item['description'])}\n'''
+
 def projects(repos):
     lookup = {r['name']: r for r in repos}
-    featured = [lookup[n] for n in FEATURED if n in lookup]
-    other = sorted((r for r in repos if r['name'] not in FEATURED), key=lambda r: r.get('pushed_at') or '', reverse=True)
+    featured = [n for n in FEATURED if n in lookup or n in EXTERNOS][:MAX_DESTAQUES]
+    other = sorted((r for r in repos if r['name'] not in featured), key=lambda r: r.get('pushed_at') or '', reverse=True)
     sections = []
-    sections += [card(r) for r in featured]
+    sections += [external_card(EXTERNOS[n]) if n in EXTERNOS else card(lookup[n]) for n in featured]
     if other:
         sections += ['<details>\n<summary>Outros projetos e estudos</summary>\n']
         sections += [card(r) for r in other]

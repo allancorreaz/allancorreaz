@@ -31,6 +31,26 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <!-- PROJECTS:START -->
 
+**[Gario](https://github.com/allancorreaz/Gario-garantias)**
+
+Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
+
+**[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
+
+Site para Agência de marketing e programação.
+
+**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
+
+Meu portifólio dev
+
+**[Neuraw](https://www.neuraw.com.br)** · Shopify · Liquid
+
+Participação no desenvolvimento e na personalização de uma loja de suplementos na Shopify, com Liquid, HTML, CSS e JavaScript.
+
+**[Validador de XML](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
+
+Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
+
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
 Gestão de implantação de sistemas
@@ -54,18 +74,6 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-**[Gario garantias](https://github.com/allancorreaz/Gario-garantias)**
-
-Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
-
-**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
-
-Meu portifólio dev
-
-**[ValidadorXml](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
-
-Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
-
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
 Landing page simples e direta para personal trainers, feita em HTML e CSS puros: sem framework, sem build, sem JavaScript e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel, que usamos como exemplo pra esse repositório.
@@ -81,10 +89,6 @@ Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.
 **[FWS BarberShop Service — Em desenvolvimento](https://github.com/allancorreaz/FWS-BarberShopService)** · TypeScript
 
 Saas pra barberarias.
-
-**[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
-
-Site para Agência de marketing e programação.
 
 **[Financeiro App](https://github.com/allancorreaz/financeiro-app)** · Python
 
