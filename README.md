@@ -54,13 +54,17 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-**[ValidadorXml](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
+**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
 
-Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
+Meu portifólio dev
 
 **[Gario garantias](https://github.com/allancorreaz/Gario-garantias)**
 
 Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
+
+**[ValidadorXml](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
+
+Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
 
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
@@ -69,10 +73,6 @@ Landing page simples e direta para personal trainers, feita em HTML e CSS puros:
 **[personalLP2](https://github.com/allancorreaz/personalLP2)** · HTML
 
 Landing page completa para personal trainers, feita em HTML, CSS e JavaScript puros: sem framework, sem build e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel.
-
-**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
-
-Meu portifólio dev
 
 **[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
