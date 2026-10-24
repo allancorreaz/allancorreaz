@@ -33,7 +33,7 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
-Gestão de garantias a partir de planilhas, sem abrir mão das planilhas.
+Sistema interno em produção para gestão de garantias: lê planilhas do Google Drive em modo somente leitura e entrega indicadores, alertas, histórico de mudanças e acesso por loja. React, TypeScript, Node.js, SQLite e Docker; o repositório traz a documentação completa.
 
 **[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
 
@@ -49,7 +49,7 @@ Participação no desenvolvimento e na personalização de uma loja de suplement
 
 **[Validador de XML](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
 
-Projeto em TypeScript. Consulte o repositório para acompanhar o desenvolvimento.
+Ferramenta em TypeScript para validar arquivos XML.
 
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
