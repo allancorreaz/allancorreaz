@@ -8,9 +8,8 @@ Minha experiência reúne projetos para clientes, interfaces responsivas, APIs e
 
 Nos projetos pessoais, aprofundo minha prática com autenticação, integração entre front-end e back-end, testes e execução local de modelos de IA. O Nexora AI é um desses projetos: um assistente local em desenvolvimento com Next.js, FastAPI e Ollama.
 
-**Busco oportunidades em desenvolvimento web**, com interesse em contribuir para uma equipe, aprender com outros profissionais e participar da construção e evolução de aplicações.
 
-[Portfólio](https://meu-portifolio-dun-two.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a) · [E-mail](mailto:demelocorrea1@outlook.com)
+[Portfólio](https://contatoallancorrea.com.br/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a) · [E-mail](mailto:demelocorrea1@outlook.com)
 
 ---
 
