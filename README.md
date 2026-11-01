@@ -30,19 +30,13 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <!-- PROJECTS:START -->
 
-**[Portfólio pessoal](https://www.contatoallancorrea.com.br)** · TypeScript
-
-Meu portifólio online. Acesse pra conhecer mais do meu trabalho.
-
 **[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
 
-ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase. Repositório vitrine com documentação completa.
-Surgiu da ideia de comércios do meu bairro terem seus controles por meio de cadernos ou planilhas excel, então estou construindo essa solução pra atendê-los.
+ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
 Sistema interno em produção para gestão de garantias: lê planilhas do Google Drive em modo somente leitura e entrega indicadores, alertas, histórico de mudanças e acesso por loja. React, TypeScript, Node.js, SQLite e Docker; o repositório traz a documentação completa.
-
 
 **[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
 
@@ -50,7 +44,7 @@ Site para Agência de marketing e programação.
 
 **[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
 
-Meu portifólio dev - Repositório github
+Meu portifólio dev
 
 **[Neuraw](https://www.neuraw.com.br)** · Shopify · Liquid
 
@@ -58,11 +52,11 @@ Participação no desenvolvimento e na personalização de uma loja de suplement
 
 **[Validador de XML](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
 
-Ferramenta em TypeScript para validar arquivos XML, com api em repositório com regras fiscais. Melhoria pra encontrar mais rápido o erro em sua NF.
+Ferramenta em TypeScript para validar arquivos XML.
 
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
-Gestão de implantação de sistemas - não finalizado.
+Gestão de implantação de sistemas
 
 **[Aprovados Questões](https://github.com/allancorreaz/AprovadosQuestoes)** · JavaScript
 
