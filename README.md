@@ -55,7 +55,7 @@ e NFS-e validadas antes do envio. Surgiu da ideia de apresentar para negócios l
 
 **[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
 
-Ainda em homologação o ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
+ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
