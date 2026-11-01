@@ -14,6 +14,7 @@ OWNER = os.environ.get('PROFILE_OWNER', 'allancorreaz')
 TOKEN = os.environ.get('GH_TOKEN', '')
 START, END = '<!-- PROJECTS:START -->', '<!-- PROJECTS:END -->'
 KNOWN = {
+ 'gestao-plataform-public': ('Gestão Platform', 'ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.'),
  'Nexora-AI': ('Nexora AI', 'Assistente local em desenvolvimento com Next.js, FastAPI e Ollama. Chat com histórico no navegador, respostas em Markdown, prévia de documentos e testes de API; recuperação documental com RAG planejada.'),
  'Gestao-de-Implantacao': ('Centro de Controle da Implantação', 'Portal de acompanhamento de implantação de ERP, com tarefas, tickets, pendências, perfis de acesso, auditoria e exportação de relatórios.'),
  'AprovadosQuestoes': ('Aprovados Questões', 'Plataforma de estudos com filtros, simulados, cronômetro, autenticação e biblioteca de materiais públicos, integrada ao Cloudflare D1.'),
@@ -29,9 +30,11 @@ KNOWN = {
  'fsw-barber': ('FSW Barber — Em desenvolvimento', 'Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.'),
  'FWS-BarberShopService': ('FWS BarberShop Service — Em desenvolvimento', 'Projeto de barbearia em desenvolvimento. Documentação técnica em preparação.'),
 }
-# Projetos que aparecem abertos, nesta ordem (no máximo 10); os demais ficam em "Outros projetos e estudos".
-FEATURED = ['Gario-garantias', 'santscompany', 'Portif-lio', 'neuraw', 'ValidadorXml', 'Gestao-de-Implantacao', 'AprovadosQuestoes', 'registro-operacional', 'apriscourbano', 'vendas-e-estoque']
-MAX_DESTAQUES = 10
+# Projetos que aparecem abertos, nesta ordem (no máximo 11); os demais ficam em "Outros projetos e estudos".
+FEATURED = ['gestao-plataform-public', 'Gario-garantias', 'santscompany', 'Portif-lio', 'neuraw', 'ValidadorXml', 'Gestao-de-Implantacao', 'AprovadosQuestoes', 'registro-operacional', 'apriscourbano', 'vendas-e-estoque']
+MAX_DESTAQUES = 11
+# Usa sempre a descrição de KNOWN (ignora a descrição curta do GitHub).
+PREFER_KNOWN = {'gestao-plataform-public'}
 # Projetos sem repositório público (trabalhos para clientes), exibidos com link para o site.
 EXTERNOS = {
  'neuraw': {'title': 'Neuraw', 'url': 'https://www.neuraw.com.br', 'language': 'Shopify · Liquid', 'description': 'Participação no desenvolvimento e na personalização de uma loja de suplementos na Shopify, com Liquid, HTML, CSS e JavaScript.'},
@@ -61,6 +64,8 @@ def plain(value):
 
 def description(repo):
     name = repo['name']
+    if name in KNOWN and name in PREFER_KNOWN:
+        return KNOWN[name][1]
     if repo.get('description'):
         return plain(repo['description'])
     if name in KNOWN:

@@ -18,17 +18,45 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 | Área | Tecnologias |
 | --- | --- |
 | Front-end | HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Bootstrap e shadcn/ui |
-| Back-end | Python, Django, Flask, FastAPI e PHP |
-| Dados e persistência | SQL Server, MySQL, SQLite, Cloudflare D1, Prisma, SQLAlchemy e Drizzle ORM |
+| Back-end | Python, Django, Flask, FastAPI, PHP, PL/pgSQL e Supabase (Edge Functions) |
+| Dados e persistência | PostgreSQL (RLS), SQL Server, MySQL, SQLite, Cloudflare D1, Prisma, SQLAlchemy e Drizzle ORM |
 | Sites e e-commerce | Shopify, Liquid, WordPress e Elementor Pro |
 | Ferramentas e publicação | Git, GitHub, Docker, Vercel e Cloudflare Workers |
 | IA local em desenvolvimento | Ollama e integração de modelos por API |
 
 ---
 
+## Em destaque: Gestão Platform
+
+<a href="https://github.com/allancorreaz/gestao-plataform-public"><img src="https://raw.githubusercontent.com/allancorreaz/gestao-plataform-public/main/docs/img/painel.png" alt="Painel do Gestão Platform" width="100%" /></a>
+
+**ERP multiempresa e modular para pequenos negócios**, idealizado e desenvolvido por mim: PDV,
+cardápio digital com QR Code, orçamento → pedido de venda → faturamento, formação de preço com
+markup, estoque com depósitos e transferências entre empresas, financeiro com DRE e NF-e, NFC-e
+e NFS-e validadas antes do envio.
+
+- Regras de negócio no **PostgreSQL** com Row Level Security: preço, estoque e numeração fiscal
+  nunca vêm do navegador.
+- **66 testes** automatizados, inclusive do banco, com Postgres em memória (PGlite).
+- Infraestrutura a **custo zero**: Supabase, Cloudflare Pages e GitHub Actions.
+
+![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-RLS-4169e1?logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?logo=supabase&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-v4-06b6d4?logo=tailwindcss&logoColor=white)
+
+[Ver o app](https://gestao-plataform.pages.dev) · [Documentação e telas](https://github.com/allancorreaz/gestao-plataform-public)
+
+---
+
 ## Projetos em destaque
 
 <!-- PROJECTS:START -->
+
+**[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
+
+ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
