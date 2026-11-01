@@ -6,7 +6,7 @@ Sou formado em Análise e Desenvolvimento de Sistemas e atuo no desenvolvimento 
 
 Minha experiência reúne projetos para clientes, interfaces responsivas, APIs e bancos de dados. Também trabalho com SQL Server, tratamento e migração de dados e melhorias em sistemas empresariais, conectando desenvolvimento às necessidades de quem utiliza as aplicações.
 
-Nos projetos pessoais, aprofundo minha prática com autenticação, integração entre front-end e back-end, testes e execução local de modelos de IA. O Nexora AI é um desses projetos: um assistente local em desenvolvimento com Next.js, FastAPI e Ollama.
+Nos projetos pessoais, aprofundo minha prática com autenticação, integração entre front-end e back-end, testes e execução local de modelos de IA.
 
 
 [Portfólio](https://contatoallancorrea.com.br/) · [LinkedIn](https://www.linkedin.com/in/allandemelocorrea-45875016a) · [E-mail](mailto:demelocorrea1@outlook.com)
@@ -17,35 +17,12 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 | Área | Tecnologias |
 | --- | --- |
-| Front-end | HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Bootstrap e shadcn/ui |
+| Front-end | JavaScript JSX, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap e shadcn/ui |
 | Back-end | Python, Django, Flask, FastAPI, PHP, PL/pgSQL e Supabase (Edge Functions) |
 | Dados e persistência | PostgreSQL (RLS), SQL Server, MySQL, SQLite, Cloudflare D1, Prisma, SQLAlchemy e Drizzle ORM |
 | Sites e e-commerce | Shopify, Liquid, WordPress e Elementor Pro |
 | Ferramentas e publicação | Git, GitHub, Docker, Vercel e Cloudflare Workers |
-| IA local em desenvolvimento | Ollama e integração de modelos por API |
-
----
-
-## Em destaque: Gestão Platform
-
-<a href="https://github.com/allancorreaz/gestao-plataform-public"><img src="https://raw.githubusercontent.com/allancorreaz/gestao-plataform-public/main/docs/img/painel.png" alt="Painel do Gestão Platform" width="100%" /></a>
-
-**ERP multiempresa e modular para pequenos negócios (ainda em desenvolvimento)**: PDV,
-cardápio digital com QR Code, orçamento → pedido de venda → faturamento, formação de preço com
-markup, estoque com depósitos e transferências entre empresas, financeiro com DRE e NF-e, NFC-e
-e NFS-e validadas antes do envio. Surgiu da ideia de apresentar para negócios locais, devido ao meu bairro ter muito e todos serem de controle por caderno.
-
-- Regras de negócio no **PostgreSQL** com Row Level Security: preço, estoque e numeração fiscal
-  nunca vêm do navegador.
-- Infraestrutura a **custo zero**: Supabase, Cloudflare Pages e GitHub Actions.
-
-![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-RLS-4169e1?logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?logo=supabase&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-v4-06b6d4?logo=tailwindcss&logoColor=white)
-
-[Ver o app](https://gestao-plataform.pages.dev) · [Documentação e telas](https://github.com/allancorreaz/gestao-plataform-public)
+| IA e Automações | N8N, Integração de modelos por API, entre outros |
 
 ---
 
@@ -53,13 +30,19 @@ e NFS-e validadas antes do envio. Surgiu da ideia de apresentar para negócios l
 
 <!-- PROJECTS:START -->
 
+**[Portfólio pessoal](https://www.contatoallancorrea.com.br)** · TypeScript
+
+Meu portifólio online. Acesse pra conhecer mais do meu trabalho.
+
 **[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
 
-ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
+ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase. Repositório vitrine com documentação completa.
+Surgiu da ideia de comércios do meu bairro terem seus controles por meio de cadernos ou planilhas excel, então estou construindo essa solução pra atendê-los.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
 Sistema interno em produção para gestão de garantias: lê planilhas do Google Drive em modo somente leitura e entrega indicadores, alertas, histórico de mudanças e acesso por loja. React, TypeScript, Node.js, SQLite e Docker; o repositório traz a documentação completa.
+
 
 **[Sants Company](https://github.com/allancorreaz/santscompany)** · HTML
 
@@ -67,7 +50,7 @@ Site para Agência de marketing e programação.
 
 **[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
 
-Meu portifólio dev
+Meu portifólio dev - Repositório github
 
 **[Neuraw](https://www.neuraw.com.br)** · Shopify · Liquid
 
@@ -75,11 +58,11 @@ Participação no desenvolvimento e na personalização de uma loja de suplement
 
 **[Validador de XML](https://github.com/allancorreaz/ValidadorXml)** · TypeScript
 
-Ferramenta em TypeScript para validar arquivos XML.
+Ferramenta em TypeScript para validar arquivos XML, com api em repositório com regras fiscais. Melhoria pra encontrar mais rápido o erro em sua NF.
 
 **[Centro de Controle da Implantação](https://github.com/allancorreaz/Gestao-de-Implantacao)** · Python
 
-Gestão de implantação de sistemas
+Gestão de implantação de sistemas - não finalizado.
 
 **[Aprovados Questões](https://github.com/allancorreaz/AprovadosQuestoes)** · JavaScript
 
