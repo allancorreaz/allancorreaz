@@ -30,14 +30,13 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 <a href="https://github.com/allancorreaz/gestao-plataform-public"><img src="https://raw.githubusercontent.com/allancorreaz/gestao-plataform-public/main/docs/img/painel.png" alt="Painel do Gestão Platform" width="100%" /></a>
 
-**ERP multiempresa e modular para pequenos negócios**, idealizado e desenvolvido por mim: PDV,
+**ERP multiempresa e modular para pequenos negócios (ainda em desenvolvimento)**: PDV,
 cardápio digital com QR Code, orçamento → pedido de venda → faturamento, formação de preço com
 markup, estoque com depósitos e transferências entre empresas, financeiro com DRE e NF-e, NFC-e
-e NFS-e validadas antes do envio.
+e NFS-e validadas antes do envio. Surgiu da ideia de apresentar para negócios locais, devido ao meu bairro ter muito e todos serem de controle por caderno.
 
 - Regras de negócio no **PostgreSQL** com Row Level Security: preço, estoque e numeração fiscal
   nunca vêm do navegador.
-- **66 testes** automatizados, inclusive do banco, com Postgres em memória (PGlite).
 - Infraestrutura a **custo zero**: Supabase, Cloudflare Pages e GitHub Actions.
 
 ![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)
@@ -56,7 +55,7 @@ e NFS-e validadas antes do envio.
 
 **[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
 
-ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
+Ainda em homologação o ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
