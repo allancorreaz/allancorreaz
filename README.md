@@ -77,6 +77,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[Lp Academia](https://github.com/allancorreaz/Lp-Academia)** · CSS
+
+Landing page institucional e comercial para a LP Power Fitness, em Itaguaí/RJ.
+
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
 Landing page simples e direta para personal trainers, feita em HTML e CSS puros: sem framework, sem build, sem JavaScript e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel, que usamos como exemplo pra esse repositório.
