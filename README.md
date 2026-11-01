@@ -54,6 +54,10 @@ e NFS-e validadas antes do envio.
 
 <!-- PROJECTS:START -->
 
+**[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
+
+ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
+
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 
 Sistema interno em produção para gestão de garantias: lê planilhas do Google Drive em modo somente leitura e entrega indicadores, alertas, histórico de mudanças e acesso por loja. React, TypeScript, Node.js, SQLite e Docker; o repositório traz a documentação completa.
