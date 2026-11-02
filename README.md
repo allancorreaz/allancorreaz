@@ -77,6 +77,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
+
+Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
+
 **[Lp Academia](https://github.com/allancorreaz/Lp-Academia)** · CSS
 
 Landing page institucional e comercial para a LP Power Fitness, em Itaguaí/RJ.
@@ -88,10 +92,6 @@ Landing page simples e direta para personal trainers, feita em HTML e CSS puros:
 **[personalLP2](https://github.com/allancorreaz/personalLP2)** · HTML
 
 Landing page completa para personal trainers, feita em HTML, CSS e JavaScript puros: sem framework, sem build e sem dependências. Abre direto no navegador e publica em qualquer hospedagem estática, como a Vercel.
-
-**[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
-
-Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
 
 **[FWS BarberShop Service — Em desenvolvimento](https://github.com/allancorreaz/FWS-BarberShopService)** · TypeScript
 
