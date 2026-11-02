@@ -77,6 +77,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[DocsShield](https://github.com/allancorreaz/DocsShield)** · Python
+
+Ferramenta de análise de documentos que seria útil conta prompts injetados de forma invisível nesses documentos.
+
 **[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
 Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
