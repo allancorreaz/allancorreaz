@@ -77,6 +77,10 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
+**[Lp Academia](https://github.com/allancorreaz/Lp-Academia)** · CSS
+
+Landing page institucional e comercial para a LP Power Fitness, em Itaguaí/RJ.
+
 **[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
 Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
@@ -84,10 +88,6 @@ Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.
 **[DocsShield](https://github.com/allancorreaz/DocsShield)** · Python
 
 Ferramenta de análise de documentos que seria útil conta prompts injetados de forma invisível nesses documentos.
-
-**[Lp Academia](https://github.com/allancorreaz/Lp-Academia)** · CSS
-
-Landing page institucional e comercial para a LP Power Fitness, em Itaguaí/RJ.
 
 **[personalLP](https://github.com/allancorreaz/personalLP)** · HTML
 
