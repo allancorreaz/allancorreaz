@@ -77,10 +77,6 @@ sistema de controle de vendas e estoque
 <details>
 <summary>Outros projetos e estudos</summary>
 
-**[Lp Academia](https://github.com/allancorreaz/Lp-Academia)** · CSS
-
-Landing page institucional e comercial para a LP Power Fitness, em Itaguaí/RJ.
-
 **[FSW Barber — Em desenvolvimento](https://github.com/allancorreaz/fsw-barber)** · TypeScript
 
 Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
