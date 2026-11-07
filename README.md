@@ -32,7 +32,7 @@ Nos projetos pessoais, aprofundo minha prática com autenticação, integração
 
 **[Gestão Platform](https://github.com/allancorreaz/gestao-plataform-public)**
 
-ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.
+ERP por assinatura para o comércio de bairro: caixa, pedidos com agenda, cardápio digital, WhatsApp automático, estoque com WMS, financeiro, DRE e notas fiscais. Cobrança recorrente no Asaas. React, TypeScript, PostgreSQL com RLS e Supabase; 83 testes. Repositório vitrine com documentação completa.
 
 **[Gario](https://github.com/allancorreaz/Gario-garantias)**
 

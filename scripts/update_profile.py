@@ -14,7 +14,7 @@ OWNER = os.environ.get('PROFILE_OWNER', 'allancorreaz')
 TOKEN = os.environ.get('GH_TOKEN', '')
 START, END = '<!-- PROJECTS:START -->', '<!-- PROJECTS:END -->'
 KNOWN = {
- 'gestao-plataform-public': ('Gestão Platform', 'ERP multiempresa e modular para pequenos negócios: PDV, cardápio digital, orçamentos, estoque com WMS, financeiro, DRE e notas fiscais. React, TypeScript, PostgreSQL com RLS e Supabase; 66 testes e infraestrutura a custo zero. Repositório vitrine com documentação completa.'),
+ 'gestao-plataform-public': ('Gestão Platform', 'ERP por assinatura para o comércio de bairro: caixa, pedidos com agenda, cardápio digital, WhatsApp automático, estoque com WMS, financeiro, DRE e notas fiscais. Cobrança recorrente no Asaas. React, TypeScript, PostgreSQL com RLS e Supabase; 83 testes. Repositório vitrine com documentação completa.'),
  'Nexora-AI': ('Nexora AI', 'Assistente local em desenvolvimento com Next.js, FastAPI e Ollama. Chat com histórico no navegador, respostas em Markdown, prévia de documentos e testes de API; recuperação documental com RAG planejada.'),
  'Gestao-de-Implantacao': ('Centro de Controle da Implantação', 'Portal de acompanhamento de implantação de ERP, com tarefas, tickets, pendências, perfis de acesso, auditoria e exportação de relatórios.'),
  'AprovadosQuestoes': ('Aprovados Questões', 'Plataforma de estudos com filtros, simulados, cronômetro, autenticação e biblioteca de materiais públicos, integrada ao Cloudflare D1.'),
