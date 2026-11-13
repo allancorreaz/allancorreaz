@@ -81,6 +81,10 @@ sistema de controle de vendas e estoque
 
 Projeto de estudo em desenvolvimento para uma aplicação de barbearia com Next.js e Prisma.
 
+**[personal fit](https://github.com/allancorreaz/personal-fit)** · TypeScript
+
+SaaS para personal trainers: alunos, fichas de treino, registro de treino pelo aluno, avaliação física com fotos, anamnese e cobranças com Pix automático (Mercado Pago de cada personal).
+
 **[DocsShield](https://github.com/allancorreaz/DocsShield)** · Python
 
 Ferramenta de análise de documentos que seria útil conta prompts injetados de forma invisível nesses documentos.
