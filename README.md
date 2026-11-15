@@ -42,10 +42,6 @@ Sistema interno em produção para gestão de garantias: lê planilhas do Google
 
 Site para Agência de marketing e programação.
 
-**[Portfólio pessoal](https://github.com/allancorreaz/Portif-lio)** · TypeScript
-
-Meu portifólio dev
-
 **[Neuraw](https://www.neuraw.com.br)** · Shopify · Liquid
 
 Participação no desenvolvimento e na personalização de uma loja de suplementos na Shopify, com Liquid, HTML, CSS e JavaScript.
